@@ -1,0 +1,384 @@
+
+.ns-logo {
+    width: 370px;
+    height: 95px;
+    margin-top: -9px;
+}
+
+.f-header li a {
+    font-size: 15px;
+    color: black !important;
+}
+
+.f-header li.dropdown {
+    min-width: 133px;
+    padding: 15px;
+}
+.f-header li.active {
+    color: #78bf21 !important;
+    border-bottom:3px solid
+}
+.f-header li a:hover {
+    color: #78bf21 !important;
+}
+
+@media (max-width: 767px) {
+    .ns-logo {
+        width: 301px;
+        height: 76px;
+        margin-top: -9px;
+    }
+    .typed-overlay1 {
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 82%;
+        z-index: 1;
+        font-size: 12px;
+    }
+    .navbar-nav > li > a {
+        padding: 0;
+        line-height: 24px;
+        text-align: left;
+        background-color: white !important;
+    }
+    .f-header{
+        background: white;
+    }
+}
+
+/*.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+    border-top: 2px solid;
+}*/
+
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+
+.navbar-nav > li > a {
+    padding: 0;
+    line-height: 65px;
+    text-align: center;
+    background-color: white !important;
+}
+
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    clear: both;
+    font-weight: 400;
+    min-width: 215px;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.inner-banner {
+    background-repeat: no-repeat;
+    background-position: 70% 40%;
+    background-size: cover;
+    width: 100%;
+    height: 410px;
+    position: relative;
+    background-color: #333;
+}
+
+.inner-banner .heading-title {
+    position: absolute;
+    top: 50%;
+    z-index: 11;
+    width: 100%;
+    padding: 0 40px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content, .content2 {
+    margin: 54px auto 0;
+    position: relative;
+    width: 100%;
+}
+.content1 {
+    margin: 54px auto;
+    position: relative;
+    width: 100%;
+}
+.typed-overlay1 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 77%;
+    z-index: 1;
+    font-size: 17px;
+}
+
+.content:before {
+    background-color: black;
+    border-radius: 5px;
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.content2:before{
+    background-color: black;
+    border-radius: 5px;
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.typed-overlay {
+    left: 46%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    z-index: 1;
+}
+
+.inner-banner .heading-title h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'AvenirLT-Book';
+    font-size: 60px;
+    margin-bottom: 0;
+    line-height: 1.2;
+    margin-top: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.inner-sec {
+    color: #53565a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gray-back {
+    background: #f5f5f5;
+}
+
+#dynamic-content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #53565A !important;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: normal;
+    font-family: 'AvenirLT-Book';
+    font-weight: 600;
+}
+
+.footer-section {
+    background: #53565A;
+    float: left;
+    width: 100%;
+}
+
+.start-finding {
+    border: 1px solid #75787b;
+}
+
+.footer-link-part {
+    padding: 65px 0;
+    background: #53565A;
+    color: #a9abad;
+}
+
+.white-kelly-logo {
+    margin-bottom: 70px;
+    width: 100%;
+    float: left;
+}
+
+.white-kelly-logo a {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+}
+
+.form-control {
+    height: 41px;
+}
+
+.footer-links {
+    padding: 0;
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.footer-links li {
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 20px;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.footer-links li a, .phone-link a, .email-link a, .footer-social-links a {
+    color: #a9abad;
+}
+
+.footer-links li a {
+    font-family: 'AvenirLT-Book';
+}
+
+.footer-address-part {
+    padding-left: 40px;
+}
+
+.footer-social-part {
+    margin-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.footer-address-part address {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.email-link {
+    display: inline-block;
+    width: 44%;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.phone-link {
+    display: inline-block;
+    width: 55%;
+    font-size: 16px;
+    padding-left: 6px;
+}
+
+.contact-form {
+    margin-top: 60px;
+}
+
+.email-link > span, .phone-link > span {
+    color: #fff;
+    margin-right: 18px;
+}
+
+.footer-links li a, .phone-link a, .email-link a, .footer-social-links a {
+    color: #a9abad;
+}
+
+textarea.form-control {
+    height: 150px;
+}
+
+.footer-social-links a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#dynamic-content p, #dynamic-content ul li {
+    line-height: 24px;
+}
+
+.grey-back p {
+    line-height: 26px;
+}
+
+textarea .form-control {
+    height: 150px;
+}
+
+.inner-banner:before {
+    background: #222;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-control .fa-chevron-left,
+    .carousel-control .fa-chevron-right,
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+        width: 30px;
+        height: 30px;
+        margin-top: -10px;
+        font-size: 30px;
+    }
+    .carousel-control .fa-chevron-left,
+    .carousel-control .icon-prev {
+        margin-left: -10px;
+    }
+    .carousel-control .fa-chevron-right,
+    .carousel-control .icon-next {
+        margin-right: -10px;
+    }
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 30px;
+    }
+    .carousel-indicators {
+        bottom: 20px;
+    }
+}
+
+.icon_class{
+    color: white;
+    font-size: 51px;
+    top: 53%;
+    position: absolute;
+}
+@media (max-width: 767px) {
+    .ns-logo {
+        width: 301px;
+        height: 76px;
+        margin-top: -9px;
+    }
+    .typed-overlay1 {
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 82%;
+        z-index: 1;
+        font-size: 12px;
+    }
+    .navbar-nav > li > a {
+        padding: 0;
+        line-height: 24px;
+        text-align: left;
+        font-size: 16px;
+        background-color: white !important;
+    }
+    .f-header{
+        background: white;
+    }
+    .fa{
+        color: #42a5f5;
+        padding-right: 5px;
+    }
+}
